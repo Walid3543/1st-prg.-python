@@ -1,4 +1,8 @@
-x = input("Enter the Temperature in celsius: ")
-c = float(x)
-f = (9/5)*c+32
-print(f)
+print('enter your command')
+robot_move = input()
+if robot_move == 'front':
+   print('Moving Front')
+elif robot_move == 'back':
+    print('Moving back')
+else:
+    print('Stand Still')
