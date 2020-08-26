@@ -1,7 +1,10 @@
 while True:
-    print('Please Enter your Name!')
+    print('who are you?')
     name = input()
-    if name == 'your name':
-       break
-
-print('Thank you')
+    if name != 'Batman':
+        continue
+    print('hello there '+name+'. What is this passcode?')
+    password = input()
+    if password == 'icecreamtruck':
+        break
+print('Enter batcave')
